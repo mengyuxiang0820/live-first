@@ -1,0 +1,164 @@
+#dynamic{
+    width: 100%;
+    height: 200px;
+    background-color: #eeeeee;
+    flex: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 10px;
+    display: inline-block;
+    overflow: scroll;
+}
+#search_img {
+    background-image: url("../images/dynamic/搜素.svg");
+}
+#search_center div:nth-child(1){
+    width: 20px;
+    height: 20px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#world{
+    margin-bottom:4px;
+}
+/*头像*/
+#language_photo{
+    height: 50px;
+    width: 50px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+/*语言条目分区*/
+#language_left{
+    flex: 1;
+    height: 48px;
+}
+#language_left div{
+    margin: 0.1px;
+}
+
+#language_center{
+    flex: 6;
+    height: 48px;
+}
+#language_center div{
+    margin: 0.1px;
+}
+#language_right{
+    flex: 1;
+    height: 48px;
+    width: 60px;
+}
+#language_right div{
+    margin: 0.1px;
+}
+/*语言栏最大层*/
+#language_bar{
+    height: 48px;
+    width: 100%;
+    background-color:#fafafa;
+    margin:0;
+    padding: 10px;
+    margin-top: 2px;
+    position: relative;
+
+}
+/*语言栏内容*/
+#language_content{
+    font-size: 100%;
+    text-align: center;
+    height: 22px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    margin-left: 30px;
+}
+/*聊天内容*/
+.nickname{
+    height: 16px;
+    width: 100%;
+    font-size: 100%;
+    margin-left: 100px;
+}
+.chat_msg{
+    height: 26px;
+    flex: 10;
+    color: #757575;
+    font-size: 90%;
+    line-height: 20px;
+}
+/*音量控制*/
+.silent{
+    height: 34px;
+    width: 100%;
+    background-image: url("../images/title/静音.svg");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: bottom right;
+}
+/*对话框右侧时间*/
+.language_time{
+    height: 20px;
+    width:100px;
+    font-weight: 400;
+    font-size: 100%;
+    color: #9e9e9e;
+    text-align: left;
+    line-height: 20px;
+}
+/*通讯录最大层*/
+#contacts_bar{
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    margin:0;
+    padding: 10px;
+    margin-top: 2px;
+    position: relative;
+}
+#contacts_left{
+    flex: 1;
+    height: 50px;
+}
+/*通讯录头像*/
+#contacts_photo{
+    height: 50px;
+    width: 50px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+/*通讯录文字*/
+#contacts_right{
+    margin-left: 80px;
+    color: #212121;
+    flex: 20;
+    font-size: 20px;
+    margin-top: -38px;
+}
+/*序列字母*/
+#world_list{
+    width: 100%;
+    height: 16px;
+    background-color: #e8e8e8;
+    margin:0;
+    padding: 10px;
+    margin-top: 2px;
+    position: relative;
+}
+#list_letter{
+    font-size: 16px;
+    color: #757575;
+    flex: 20;
+}
+#find_empty{
+    width: 100%;
+    height: 1px;
+    background-color: #e8e8e8;
+    margin:0;
+    padding: 4px;
+    margin-top: 0px;
+    position: relative;
+}
+

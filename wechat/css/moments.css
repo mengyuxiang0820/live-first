@@ -1,0 +1,83 @@
+/*背景*/
+#backgroung_img{
+    background-image: url("../images/moments/封面.png");
+    width: 100%;
+    height: 300px;
+}
+/*中间部分*/
+#moments_zhongjian{
+    width: 40%;
+    height: 100px;
+    margin-top: -60px;
+    background:rgba(0,0,0,0);
+    margin-left: 60%;
+}
+/*头像*/
+#moments_touxiang{
+    background-image: url("../images/moments/我.jpg");
+    width: 80px;
+    height: 80px;
+    margin-left: 210px;
+}
+#moments_text{
+    color: white;
+    font-size: 20px;
+    margin-left:20px;
+    margin-top: -60px;
+}
+/*发表内容*/
+#moments_neirong{
+    width: 100%;
+    height: 500px;
+    color: #fafafa;
+}
+/*头像名称文字*/
+#moments_up{
+    width: 100%;
+    height: 80px;
+    background:rgba(0,0,0,0);
+}
+#moments_tx{
+    background-image: url("../images/moments/李连杰.jpg");
+    width: 60px;
+    height: 60px;
+    margin:10px;
+    margin-left: 30px;
+}
+#name{
+    color: #6028c0;
+    font-size: 24px;
+    margin-top: -70px;
+    margin-left: 100px;
+}
+#name_down{
+    font-size: 24px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#moments_mv{
+    width: 360px;
+    height: 300px;
+    margin-left: 100px;
+}
+#end{
+    width: 100%;
+    height: 30px;
+    background:rgba(0,0,0,0);
+    margin-top: 60px;
+}
+#time{
+    color: #757575;
+    font-size: 10px;
+    margin-left: 100px;
+    margin-top: 8px;
+}
+#good\&say{
+    background-image: url("../images/moments/朋友圈-详情.png");
+    margin-left: 700px;
+    height: 25px;
+    width: 74px;
+    margin-top: -16px;
+}
+

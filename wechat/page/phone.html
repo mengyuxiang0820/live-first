@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>通讯录</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/util.css">
+    <link rel="stylesheet" href="../css/app_bar.css">
+    <link rel="stylesheet" href="../css/title.css">
+    <link rel="stylesheet" href="../css/dynamic.css">
+    <link rel="stylesheet" href="../css/chat.css">
+    <link rel="stylesheet" href="../css/menus.css">
+</head>
+<body>
+<div id="container">
+    <!--app_bar层-->
+    <div id="app_bar"  class="flex-row-nowarp align-col-center">
+        <div id="app_bar_left" class="flex-row-nowarp align-col-center">
+            <div id="singnal" class="flex-row-nowarp align-col-end">
+                <div class="has-singnal"></div>
+                <div class="has-singnal"></div>
+                <div class="has-singnal"></div>
+                <div class="has-singnal"></div>
+                <div class="no-singnal"></div>
+            </div>
+            <div id="xg" class="flex-row-nowarp align-row-center align-col-center">4G</div>
+        </div>
+        <div id="app_bar_center" class="flex-row-nowarp align-col-center align-row-center">18:00</div>
+        <div id="app_bar_right" class="flex-row-nowarp align-col-center align-row-right">
+            <div id="batteray_quantity">75%</div>
+            <div id="batteray" class="flex-row-nowarp align-col-center">
+                <div id="batteray_body"></div>
+            </div>
+            <div id="batteray_head"></div>
+        </div>
+    </div>
+    <!--title层-->
+    <div id="title">
+        <div id="title_left">
+            <div id="vx_text" class="flex-row-nowarp">通讯录</div>
+        </div>
+        <div id="title_center"></div>
+        <div id="title_right" class="align-row-right flex-row-nowarp align-row-right postion-rela">
+            <div id="add"></div>
+            <div id="title_submenu"class="postion-rela">
+                <!--菜单层中的群聊条目-->
+                <div id="substance" class="flex-row-nowarp align-row-center">
+                    <!--左边图片-->
+                    <div id="menus_left">
+                        <div id="menus_photo"style="background-image: url(../images/title/group_chat.svg)"></div>
+                    </div>
+                    <!--右边文字-->
+                    <div id="menus_right">
+                        <div id="menus_content" class="flex-row-nowarp">发起群聊</div>
+                    </div>
+                </div>
+                <!--菜单中的添加朋友-->
+                <div id="substance" class="flex-row-nowarp align-row-center">
+                    <!--左边图片-->
+                    <div id="menus_left">
+                        <div id="menus_photo"style="background-image: url(../images/title/add_friend.svg)"></div>
+                    </div>
+                    <!--右边文字-->
+                    <div id="menus_right">
+                        <div id="menus_content" class="flex-row-nowarp">添加朋友</div>
+                    </div>
+                </div>
+                <!--菜单中的扫一扫-->
+                <div id="substance" class="flex-row-nowarp align-row-center">
+                    <!--左边图片-->
+                    <div id="menus_left">
+                        <div id="menus_photo"style="background-image: url(../images/title/sweep.svg)"></div>
+                    </div>
+                    <!--右边文字-->
+                    <div id="menus_right">
+                        <div id="menus_content" class="flex-row-nowarp">扫一扫</div>
+                    </div>
+                </div> <!--菜单中的收付款-->
+                <div id="substance" class="flex-row-nowarp align-row-center">
+                    <!--左边图片-->
+                    <div id="menus_left">
+                        <div id="menus_photo"style="background-image: url(../images/title/payment.svg)"></div>
+                    </div>
+                    <!--右边文字-->
+                    <div id="menus_right">
+                        <div id="menus_content" class="flex-row-nowarp">收付款</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dynamic">
+        <!--新的朋友-->
+        <div id="contacts_bar">
+            <div id="contacts_photo" style="background-image: url(../images/dynamic/新的朋友.png)"></div>
+            <div id="contacts_right">新的朋友</div>
+        </div>
+        <!--群聊-->
+        <div id="contacts_bar">
+            <div id="contacts_photo" style="background-image: url(../images/dynamic/群聊.png)"></div>
+            <div id="contacts_right">群聊</div>
+        </div>
+        <!--标签-->
+        <div id="contacts_bar">
+            <div id="contacts_photo" style="background-image: url(../images/dynamic/微信标签.png)"></div>
+            <div id="contacts_right">标签</div>
+        </div>
+        <!--公众号-->
+        <div id="contacts_bar">
+            <div id="contacts_photo" style="background-image: url(../images/dynamic/微信公众号.png)"></div>
+            <div id="contacts_right">公众号</div>
+        </div>
+        <!--字母B-->
+        <div id="world_list"><div id="list_letter">B</div> </div>
+        <!--第一条-->
+        <div id="contacts_bar">
+            <div id="contacts_photo" style="background-image: url(../images/头像/博祥.jpg)"></div>
+            <div id="contacts_right">博祥</div>
+        </div>
+        <!--第二条-->
+        <div id="contacts_bar">
+            <div id="contacts_photo" style="background-image: url(../images/头像/博义远医学配镜.jpg)"></div>
+            <div id="contacts_right">博义远医学配镜</div>
+        </div>
+        <!--字母C-->
+        <div id="world_list"><div id="list_letter">C</div> </div>
+        <!--第三条-->
+        <div id="contacts_bar">
+            <div id="contacts_photo" style="background-image: url(../images/头像/曹瑞.jpg)"></div>
+            <div id="contacts_right">曹瑞</div>
+        </div>
+        <!--第四条-->
+        <div id="contacts_bar">
+            <div id="contacts_photo" style="background-image: url(../images/头像/曹元瑞.jpg)"></div>
+            <div id="contacts_right">曹元瑞</div>
+        </div>
+        <!--字母D-->
+        <div id="world_list"><div id="list_letter">D</div> </div>
+        <!--第五条-->
+        <div id="contacts_bar">
+            <div id="contacts_photo" style="background-image: url(../images/头像/段金玲.jpg)"></div>
+            <div id="contacts_right">段金玲</div>
+        </div>
+        <!--第六条-->
+        <div id="contacts_bar">
+            <div id="contacts_photo" style="background-image: url(../images/头像/杜蕊.jpg)"></div>
+            <div id="contacts_right">杜蕊</div>
+        </div>
+        <!--字母F-->
+        <div id="world_list"><div id="list_letter">F</div> </div>
+    </div>
+    <!--menus层-->
+    <div id="menus" class="flex-row-nowarp align-col-center">
+        <!--微信-->
+        <div id="m_chat" class="flex-col-nowarp">
+            <div id="chat" class="postion-rela flex-col-nowarp" onclick="window.location.href='chat.html';return false">
+                <div class="has_infom_alert" style="margin-top: 0px; margin-right: 10px;">
+                    <div class="alert_num">9</div>
+                </div>
+                <div id="wechat_text_chat">微信</div>
+            </div>
+        </div>
+        <!--通讯录-->
+        <div id="m_chat" class="flex-col-nowarp">
+            <div id="tongxunlu" class="postion-rela flex-col-nowarp" onclick="window.location.href='phone.html';return false">
+                <div id="tongxunluziti">通讯录</div>
+            </div>
+        </div>
+        <!--发现-->
+        <div id="m_chat" class="flex-col-nowarp">
+            <div id="find" class="postion-rela flex-col-nowarp" onclick="window.location.href='find.html';return false">
+                <div id="wechat_text_chat">发现</div>
+            </div>
+        </div>
+        <!--我-->
+        <div id="m_chat" class="flex-col-nowarp">
+            <div id="me" class="postion-rela flex-col-nowarp"onclick="window.location.href='me.html';return false">
+                <div id="me_text">我</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type="text/javascript" src="../js/app_bar.js"></script>
+<script type="text/javascript" src="../js/title.js"></script>

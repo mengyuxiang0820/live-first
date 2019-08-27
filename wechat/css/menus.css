@@ -1,0 +1,60 @@
+#menus{
+    width:100%;
+    height: 70px;
+    background-color: #d4d4d4;
+}
+
+#m_chat{
+    flex: 1;
+    height: 60px;
+}
+#chat{
+    height: 50px;
+    width: 50px;
+    background: url("../images/消息.png");
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 40%;
+}
+#wechat_text_chat{
+    color: #000000;
+    margin-top: 46px;
+    font-size: 80%;
+    margin-left: 12px;
+}
+#tongxunlu{
+    height: 50px;
+    width: 50px;
+    background: url("../images/通讯录.png");
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 40%;
+}
+#tongxunluziti{
+    color: #000000;
+    margin-top: 46px;
+    font-size: 80%;
+    margin-left: 4px;
+}
+#find{
+    height: 50px;
+    width: 50px;
+    background: url("../images/发现动态新鲜事线性.svg");
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 40%;
+}
+#me{
+    height: 50px;
+    width: 50px;
+    background: url("../images/我.png");
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 40%;
+}
+#me_text{
+    color: #000000;
+    margin-top: 46px;
+    font-size: 80%;
+    margin-left: 20px;
+}
